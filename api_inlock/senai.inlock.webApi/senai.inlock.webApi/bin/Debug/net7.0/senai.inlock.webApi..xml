@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>senai.inlock.webApi.</name>
+    </assembly>
+    <members>
+        <member name="M:senai.inlock.webApi_.Controllers.EstudioController.Post(senai.inlock.webApi_.Domains.EstudioDomain)">
+            <summary>
+            EndPoint que aciona o método de cadastrar estudio
+            </summary>
+            <param name="novoEstudio">Objeto(estudio) que será cadastrado</param>
+            <returns>Status Code(204)</returns>
+        </member>
+        <member name="M:senai.inlock.webApi_.Controllers.EstudioController.Delete(System.Int32)">
+            <summary>
+            EndPoint que aciona o método de deletar estudio
+            </summary>
+            <param name="id">ID do estudio que será deletado</param>
+            <returns> Status Code(204)</returns>
+        </member>
+        <member name="M:senai.inlock.webApi_.Controllers.EstudioController.Get">
+            <summary>
+            EndPoint que aciona o método de listar estudio
+            </summary>
+            <returns>retorna uma lista do objeto estudio</returns>
+        </member>
+        <member name="M:senai.inlock.webApi_.Controllers.JogoController.Post(senai.inlock.webApi_.Domains.JogoDomain)">
+            <summary>
+            EndPoint que aciona o método de cadastrar objeto(jogo)
+            </summary>
+            <param name="novoJogo">Objeto(jogo) que será cadastrado</param>
+            <returns> 201 (Created)</returns>
+        </member>
+        <member name="M:senai.inlock.webApi_.Controllers.JogoController.Get">
+            <summary>
+            EndPonit que aciona método Listar Todos
+            </summary>
+            <returns>Lista de objetos(jogos)</returns>
+        </member>
+        <member name="M:senai.inlock.webApi_.Controllers.JogoController.Delete(System.Int32)">
+            <summary>
+            EndPoint que aciona o método de deletar objeto(jogo)
+            </summary>
+            <param name="id">ID do objeto(jogo) que será deletado</param>
+            <returns>Status Code (204)</returns>
+        </member>
+        <member name="M:senai.inlock.webApi_.Interfaces.IEstudioRepository.Cadastrar(senai.inlock.webApi_.Domains.EstudioDomain)">
+            <summary>
+            Método que cadastra novo objeto(Estudio)
+            </summary>
+            <param name="novoEstudio">Objeto(estudio) que será cadastrado</param>
+        </member>
+        <member name="M:senai.inlock.webApi_.Interfaces.IEstudioRepository.ListarTodos">
+            <summary>
+            Método que lista todos objetos(Estudio)
+            </summary>
+            <returns>Lista de objetos(estudios)</returns>
+        </member>
+        <member name="M:senai.inlock.webApi_.Interfaces.IEstudioRepository.Deletar(System.Int32)">
+            <summary>
+            Método que deleta objeto(estudio) pelo ID
+            </summary>
+            <param name="id">Id do objeto(estudio) que será deletado</param>
+        </member>
+        <member name="M:senai.inlock.webApi_.Interfaces.IJogoRepository.Cadastrar(senai.inlock.webApi_.Domains.JogoDomain)">
+            <summary>
+            Método para cadastrar novo jogo
+            </summary>
+            <param name="novoJogo">Objeto(jogo) que será cadastrado</param>
+        </member>
+        <member name="M:senai.inlock.webApi_.Interfaces.IJogoRepository.ListarTodos">
+            <summary>
+            Método para listar todos os jogos
+            </summary>
+            <returns>Lista com todos objetos(jogos)</returns>
+        </member>
+        <member name="M:senai.inlock.webApi_.Interfaces.IJogoRepository.Deletar(System.Int32)">
+            <summary>
+            Método para deletar objeto(jogo) pelo id
+            </summary>
+            <param name="id">Id do objeto(jogo) que será deletado</param>
+        </member>
+        <member name="M:senai.inlock.webApi_.Interfaces.IUsuarioRepository.Cadastrar(senai.inlock.webApi_.Domains.UsuarioDomain)">
+            <summary>
+            Método para cadastrar novo usuario
+            </summary>
+            <param name="novoUsuario">usuario a ser cadastrado</param>
+        </member>
+        <member name="M:senai.inlock.webApi_.Interfaces.IUsuarioRepository.ListarTodos">
+            <summary>
+            Método que lista todos os usuarios
+            </summary>
+            <returns>retorna uma lista de usuarios</returns>
+        </member>
+        <member name="M:senai.inlock.webApi_.Repositorys.EstudioRepository.Cadastrar(senai.inlock.webApi_.Domains.EstudioDomain)">
+            <summary>
+            Método que cadastra novo estudio
+            </summary>
+            <param name="novoEstudio">estudio que sera cadastrado</param>
+        </member>
+        <member name="M:senai.inlock.webApi_.Repositorys.EstudioRepository.Deletar(System.Int32)">
+            <summary>
+            Método para deletar estudio
+            </summary>
+            <param name="id">id do estudio que será deletado</param>
+        </member>
+        <member name="M:senai.inlock.webApi_.Repositorys.EstudioRepository.ListarTodos">
+            <summary>
+            Método que lista estudio
+            </summary>
+            <returns>retorna uma lista de estudio</returns>
+        </member>
+        <member name="M:senai.inlock.webApi_.Repositorys.JogoRepository.Cadastrar(senai.inlock.webApi_.Domains.JogoDomain)">
+            <summary>
+            Método que cadastra objeto(jogo)
+            </summary>
+            <param name="novoJogo">Objeto(jogo) que será cadastrado</param>
+        </member>
+        <member name="M:senai.inlock.webApi_.Repositorys.JogoRepository.Deletar(System.Int32)">
+            <summary>
+            Método que deleta objeto(jogo) pelo ID
+            </summary>
+            <param name="id">ID do objeto que será deletado</param>
+        </member>
+        <member name="M:senai.inlock.webApi_.Repositorys.JogoRepository.ListarTodos">
+            <summary>
+            Método que lista todos os objetos(jogos)
+            </summary>
+            <returns>Lista de objetos(jogos)</returns>
+        </member>
+        <member name="M:senai.inlock.webApi_.Repositorys.UsuarioRepository.Cadastrar(senai.inlock.webApi_.Domains.UsuarioDomain)">
+            <summary>
+            Método que cadastra objeto(Usuario)
+            </summary>
+            <param name="novoUsuario">objeto(Usuario) que será cadastrado</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HealthClinic_Senaimanha</name>
+    </assembly>
+    <members>
+        <member name="M:HealthClinic_Senaimanha.Controllers.ClinicaController.Post(HealthClinic_Senaimanha.Domains.Clinica)">
+            <summary>
+            EndPoint que aciona o método de cadastro de clinica
+            </summary>
+            <param name="novaClinica">Clinica que será cadastrada</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.ClinicaController.Put(System.Guid,HealthClinic_Senaimanha.Domains.Clinica)">
+            <summary>
+            EndPoint que aciona o método de atualizar clinica por ID
+            </summary>
+            <param name="id">ID da clinica atualizada</param>
+            <param name="clinica">Clinica atualizada</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.ClinicaController.Delete(System.Guid)">
+            <summary>
+            EndPoint que aciona o método de deletar clinica por ID
+            </summary>
+            <param name="id">ID da clinica buscada</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.ClinicaController.Get">
+            <summary>
+            EndPoint que aciona o método de listar todas clinicas
+            </summary>
+            <returns>Lista com todas clinicas</returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.ComentarioController.Post(HealthClinic_Senaimanha.Domains.Comentario)">
+            <summary>
+            EndPoint que aciona o método de cadastro de comentário
+            </summary>
+            <param name="comentario">Comentário que será cadastrado</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.ComentarioController.Put(HealthClinic_Senaimanha.Domains.Comentario,System.Guid)">
+            <summary>
+            EndPoint que aciona o método de atualizar comentário por ID
+            </summary>
+            <param name="comentario">Comentário atualizado</param>
+            <param name="id">ID do comentário atualizado</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.ComentarioController.Delete(System.Guid)">
+            <summary>
+            EndPoint que aciona o método de deletar comentário por ID
+            </summary>
+            <param name="id">ID do comentário buscado</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.ComentarioController.GetById(System.Guid)">
+            <summary>
+            EndPoint que aciona o método de listar comentário por ID
+            </summary>
+            <param name="id">ID do comentário buscado</param>
+            <returns>Comentário que contém o ID buscado</returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.ConsultaController.Post(HealthClinic_Senaimanha.Domains.Consulta)">
+            <summary>
+            EndPoint que aciona o método de cadastrar consulta
+            </summary>
+            <param name="consulta">Consulta que será cadastrada</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.ConsultaController.Get">
+            <summary>
+            EndPoint que aciona o método de listar todas consultas
+            </summary>
+            <returns>Lista com todas consultas</returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.ConsultaController.GetById(System.Guid)">
+            <summary>
+            EndPoint que aciona o método de listar consultas por ID
+            </summary>
+            <param name="id">ID da consulta buscada</param>
+            <returns>Consulta que contém o ID buscado</returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.ConsultaController.Put(System.Guid,HealthClinic_Senaimanha.Domains.Consulta)">
+            <summary>
+            EndPoint que aciona o método de atualizar consulta por ID
+            </summary>
+            <param name="id">ID da consulta que será atualizada</param>
+            <param name="consulta">Consulta atualizada</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.ConsultaController.Delete(System.Guid)">
+            <summary>
+            EndPoint que aciona o método de deletar consulta por ID
+            </summary>
+            <param name="id">ID da consulta buscada</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.EspecialidadeController.Post(HealthClinic_Senaimanha.Domains.Especialidade)">
+            <summary>
+            EndPoint que aciona o método de cadastro de Especialidade
+            </summary>
+            <param name="especialidade">Especialidade que será cadastrada</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.EspecialidadeController.Get">
+            <summary>
+            EndPoint que aciona o método de listar todas especialidades
+            </summary>
+            <returns>Lista com todas especialidades</returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.EspecialidadeController.Put(HealthClinic_Senaimanha.Domains.Especialidade,System.Guid)">
+            <summary>
+            EndPoint que aciona o método de atualizar especialidade por ID
+            </summary>
+            <param name="especialidade">Especialidade atualizada</param>
+            <param name="id">ID da especialidade que será atualizada</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.EspecialidadeController.Delete(System.Guid)">
+            <summary>
+            EndPoint que aciona o método de deletar especialidade por ID
+            </summary>
+            <param name="id">ID da especialidade que será deletada</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.LoginController.Post(HealthClinic_Senaimanha.ViewModels.LoginViewModel)">
+            <summary>
+            EndPoint que aciona o método de login, buscando email e senha do usuário
+            </summary>
+            <param name="usuario">Email e Senha do usuário</param>
+            <returns>Token do usuário</returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.MedicoController.Post(HealthClinic_Senaimanha.Domains.Medico)">
+            <summary>
+            EndPoint que aciona o método de cadastro de médico
+            </summary>
+            <param name="medico">Médico que será cadastrado</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.MedicoController.Get">
+            <summary>
+            EndPoint que aciona o método de listar todos médicos
+            </summary>
+            <returns>Lista com todos médicos</returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.MedicoController.GetById(System.Guid)">
+            <summary>
+            EndPoint que aciona o método de listar médico por ID
+            </summary>
+            <param name="id">ID do médico que será listado</param>
+            <returns>Médico que contém ID buscado</returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.MedicoController.Put(HealthClinic_Senaimanha.Domains.Medico,System.Guid)">
+            <summary>
+            EndPoint que aciona o método de atualizar método por ID
+            </summary>
+            <param name="medico">Médico atualizado</param>
+            <param name="id">ID do médico que será atualizado</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.MedicoController.Delete(System.Guid)">
+            <summary>
+            EndPoint que aciona o método de deletar médico por ID
+            </summary>
+            <param name="id">ID do médico que será deletado</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.PacienteController.Post(HealthClinic_Senaimanha.Domains.Paciente)">
+            <summary>
+            EndPoint que aciona o método de cadastrar paciente
+            </summary>
+            <param name="paciente">paciente que será cadastrado</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.PacienteController.Get">
+            <summary>
+            EndPoint que aciona o método de listar todos pacientes
+            </summary>
+            <returns>Lista com todos pacientes</returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.PacienteController.GetById(System.Guid)">
+            <summary>
+            EndPoint que aciona o método de listar paciente por ID
+            </summary>
+            <param name="id">ID do pacienteque será listado</param>
+            <returns>Paciente que contém o ID buscado</returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.PacienteController.Put(System.Guid,HealthClinic_Senaimanha.Domains.Paciente)">
+            <summary>
+            EndPoint que aciona o método de atualizar paciente por ID
+            </summary>
+            <param name="id">ID do paciente que será atualizado</param>
+            <param name="paciente">Paciente atualizado</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.PacienteController.Delete(System.Guid)">
+            <summary>
+            EndPoint que aciona o método de deletar paciente por ID
+            </summary>
+            <param name="id">ID do paciente que será deletado</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.TipoDeUsuarioController.Post(HealthClinic_Senaimanha.Domains.TipoDeUsuario)">
+            <summary>
+            EndPoint que aciona o método de cadastrar tipo de usuario
+            </summary>
+            <param name="tipoDeUsuario">Tipo de usuario que será cadastrado</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.UsuarioController.Post(HealthClinic_Senaimanha.Domains.Usuario)">
+            <summary>
+            EndPoint que aciona o método de cadastro de usuario
+            </summary>
+            <param name="usuario">Usuario que será cadastrado</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.UsuarioController.Delete(System.Guid)">
+            <summary>
+            EndPoint que aciona o método de deletar usuário pelo ID
+            </summary>
+            <param name="id">ID do usuário que será deletado</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.UsuarioController.Put(System.Guid,HealthClinic_Senaimanha.Domains.Usuario)">
+            <summary>
+            EndPoint que aciona o método de atualizar usuário pelo ID
+            </summary>
+            <param name="id">ID do usuário que será atualizado</param>
+            <param name="usuario">Usuário atualizado</param>
+            <returns></returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.UsuarioController.GetById(System.Guid)">
+            <summary>
+            EndPoint que aciona o método de listar usuário por ID
+            </summary>
+            <param name="id">ID do usuário que será listado</param>
+            <returns>Usuário que contém o ID buscado</returns>
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Controllers.UsuarioController.Get">
+            <summary>
+            EndPoint que aciona o método de listar todos usuários
+            </summary>
+            <returns>Lista com todos usuários</returns>
+        </member>
+        <member name="T:HealthClinic_Senaimanha.Migrations.Db1">
+            <inheritdoc />
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Migrations.Db1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Migrations.Db1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:HealthClinic_Senaimanha.Migrations.Db1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

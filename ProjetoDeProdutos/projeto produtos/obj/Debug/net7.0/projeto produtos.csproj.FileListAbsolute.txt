@@ -1,0 +1,15 @@
+C:\Users\47349403801\Desktop\ProjetoDeProdutos\projeto produtos\bin\Debug\net7.0\projeto produtos.exe
+C:\Users\47349403801\Desktop\ProjetoDeProdutos\projeto produtos\bin\Debug\net7.0\projeto produtos.deps.json
+C:\Users\47349403801\Desktop\ProjetoDeProdutos\projeto produtos\bin\Debug\net7.0\projeto produtos.runtimeconfig.json
+C:\Users\47349403801\Desktop\ProjetoDeProdutos\projeto produtos\bin\Debug\net7.0\projeto produtos.dll
+C:\Users\47349403801\Desktop\ProjetoDeProdutos\projeto produtos\bin\Debug\net7.0\projeto produtos.pdb
+C:\Users\47349403801\Desktop\ProjetoDeProdutos\projeto produtos\obj\Debug\net7.0\projeto produtos.csproj.AssemblyReference.cache
+C:\Users\47349403801\Desktop\ProjetoDeProdutos\projeto produtos\obj\Debug\net7.0\projeto produtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\47349403801\Desktop\ProjetoDeProdutos\projeto produtos\obj\Debug\net7.0\projeto produtos.AssemblyInfoInputs.cache
+C:\Users\47349403801\Desktop\ProjetoDeProdutos\projeto produtos\obj\Debug\net7.0\projeto produtos.AssemblyInfo.cs
+C:\Users\47349403801\Desktop\ProjetoDeProdutos\projeto produtos\obj\Debug\net7.0\projeto produtos.csproj.CoreCompileInputs.cache
+C:\Users\47349403801\Desktop\ProjetoDeProdutos\projeto produtos\obj\Debug\net7.0\projeto produtos.dll
+C:\Users\47349403801\Desktop\ProjetoDeProdutos\projeto produtos\obj\Debug\net7.0\refint\projeto produtos.dll
+C:\Users\47349403801\Desktop\ProjetoDeProdutos\projeto produtos\obj\Debug\net7.0\projeto produtos.pdb
+C:\Users\47349403801\Desktop\ProjetoDeProdutos\projeto produtos\obj\Debug\net7.0\projeto produtos.genruntimeconfig.cache
+C:\Users\47349403801\Desktop\ProjetoDeProdutos\projeto produtos\obj\Debug\net7.0\ref\projeto produtos.dll
